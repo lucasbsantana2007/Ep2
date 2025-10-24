@@ -13,4 +13,4 @@ def preenche_frota(frota, nome_navio, linha, coluna, orientacao, tamanho):
         frota[nome_navio].append(posicoes)
     else:
         frota[nome_navio] = [posicoes]
-    return frota
+
